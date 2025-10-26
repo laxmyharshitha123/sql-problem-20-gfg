@@ -1,0 +1,3 @@
+# 10. Calculate the total quantity_sold from the Sales table.
+select SUM(quantity_sold) AS total quantity_sold from sales 
+group by quantity_sold;
